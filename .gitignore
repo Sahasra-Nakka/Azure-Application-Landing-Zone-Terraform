@@ -1,0 +1,14 @@
+# Terraform (ignore everywhere)
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfplan
+
+# Terraform binary
+**/terraform.exe
+
+# Secrets
+**/*.tfvars
+**/*.pem
+**/*.key
+**/.env
